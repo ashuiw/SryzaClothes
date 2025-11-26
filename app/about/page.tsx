@@ -18,8 +18,14 @@ export default function About() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
-          <div className="h-96 bg-secondary rounded-2xl overflow-hidden">
-            <Image src="/placeholder.svg?key=about_hero" alt="SryzaClothes Story" fill className="object-cover" />
+          <div className="relative w-full h-96 bg-secondary rounded-2xl overflow-hidden">
+            <Image
+              src="/premium-fashion-collection.jpg"
+              alt="SryzaClothes Story"
+              width={500}
+              height={400}
+              className="w-full h-full object-cover rounded-2xl"
+            />
           </div>
 
           <div className="space-y-6">
